@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dropdown Menu with Search Box | CodingNepal</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaquery.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <script src="https://cdn.tailwindcss.com"></script>
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="wrapper">
+    <! Navbar Using HTML and CSS-->
+    <nav>
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+      <div class="logo"><a href="#">Pending</a></div>
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="http://localhost/chatapp/login.php">Log-In</a></li>
+          <li>
+            <a href="about.html" class="desktop-link">About</a>
+            <input type="checkbox" id="show-features">
+            <label for="show-features">About</label>
+            <!--
+            <ul>
+              <li><a href="#">Drop Menu 1</a></li>
+              <li><a href="#">Drop Menu 2</a></li>
+              <li><a href="#">Drop Menu 3</a></li>
+              <li><a href="#">Drop Menu 4</a></li>
+              </ul>
+          </li>
+        -->
+          <li>
+            <a class="desktop-link">Services</a>
+            <input type="checkbox" id="show-services">
+            <label for="show-services">Services</label>
+            <ul>
+              <li><a href="#">Drop Menu 1</a></li>
+              <li><a href="#">Drop Menu 2</a></li>
+              <li><a href="#">Drop Menu 3</a></li>
+              <li>
+                <a href="#" class="desktop-link">More Items</a>
+                <input type="checkbox" id="show-items">
+                <label for="show-items">More Items</label>
+                <ul>
+                  <li><a href="#">Sub Menu 1</a></li>
+                  <li><a href="#">Sub Menu 2</a></li>
+                  <li><a href="#">Sub Menu 3</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+      </div>
+      <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+      <form action="#" class="search-box">
+        <input type="text" placeholder="Type Something to Search..." required>
+        <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+      </form>
+    </nav>
+  </div> 
+       <div class="underline"></div><br>
+        <fieldset style="border: 0;margin-left: 200px;">
+    <b>Dear User,<br><br>If you want any changes in our website please write your opnine in the text box below.<br>And we request you to give your own view about the Website.<br><br>Thank you.<br>Team Pending.</b><br><br><br><br>
+            <table border="0">
+            <tr>
+            <td>
+            <u><b>Write your Opnine below:</b></u><br><br>
+            <form style="margin-left:-40px;">
+            <textarea placeholder="Write your Feedback here!!!" style="width:800px;height:400px;font-size:30px;font-family:sans-serif;border:2px solid red; "></textarea><br><br>
+                <input type="reset" value="Reset"class="button" style="background-color: lawngreen;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="submit" value="Submit" class="button" onclick="sayhello()" style="background-color: dodgerblue;">
+                <script>
+                  function sayhello(){
+                      alert("Thanks for your feedback");
+                  }
+                </script>
+            </form>
+                </td>
+                <td>
+            <div class="Marquee">
+                <marquee direction="up"><center><b>Parallax Demo </b></center><br>
+                    <center>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</center></marquee>
+            </div>
+                </td>
+                </tr></table>
+    </fieldset>
+     <footer>
+        <div class="footer-content">
+            <h3>Pending</h3>
+            <p>Our website connects you to the surrounding of the KIIT.</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+     </div>
+        <div class="footer-bottom">
+            <p>copyright &copy; <a href="#">Pending</a>  </p>
+                    <div class="footer-menu">
+                      <ul class="f-menu">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Blog</a></li>
+                      </ul>
+                    </div>
+        </div>
+    </footer>
+    <div class="chat-bot-system">
+    <a href="#" class="" >
+    <img src="https://img.freepik.com/premium-vector/robot-icon-chat-bot-sign-support-service-concept-chatbot-character-flat-style_41737-796.jpg?w=740" height="70px" width="70px" alt="Chat Bot">
+    </a>
+</div>
+</body>
+</html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dropdown Menu with Search Box | CodingNepal</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <script src="https://cdn.tailwindcss.com"></script>
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="wrapper">
+    <! Navbar Using HTML and CSS-->
+    <nav>
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+      <div class="logo"><a href="#">Pending</a></div>
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="http://localhost/chatapp/login.php">Log-In</a></li>
+          <li>
+            <a href="about.html" class="desktop-link">About</a>
+            <input type="checkbox" id="show-features">
+            <label for="show-features">About</label>
+              <!--
+            <ul>
+              <li><a href="#">Drop Menu 1</a></li>
+              <li><a href="#">Drop Menu 2</a></li>
+              <li><a href="#">Drop Menu 3</a></li>
+              <li><a href="#">Drop Menu 4</a></li>
+            </ul>
+          </li>
+            -->
+          <li>
+            <a class="desktop-link">Services</a>
+            <input type="checkbox" id="show-services">
+            <label for="show-services">Services</label>
+            <ul>
+              <li><a href="#">Vendor Connect</a></li>
+              <li><a href="#">GPS</a></li>
+              <li><a href="#">Local OLX</a></li>
+              <li>
+                <a href="#" class="desktop-link">More Items</a>
+                <input type="checkbox" id="show-items">
+                <label for="show-items">More Items</label>
+                <ul>
+                  <li><a href="#">Sub Menu 1</a></li>
+                  <li><a href="#">Sub Menu 2</a></li>
+                  <li><a href="#">Sub Menu 3</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+      </div>
+      <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+      <form action="#" class="search-box">
+        <input type="text" placeholder="Type Something to Search..." required>
+        <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+      </form>
+    </nav>
+  </div>  
+        <div class="heading">
+        <h1>HELLO..!! Welcome to Pending</h1>    
+    </div>
+    <div class="wlcm">
+   <video src="img/pexels-rodnae-productions-8293502.mp4"
+         muted loop autoplay ></video>
+    </div>
+              <!Body Main Containt-->
+   <section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap -m-4">
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a href="" class="block relative h-48 rounded overflow-hidden">
+        <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://thumbs.dreamstime.com/b/fresh-fruit-seller-smiling-presenting-his-produce-42315176.jpg">
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+          <h2 class="text-gray-900 title-font text-lg font-medium">Fruit Seller`s</h2>
+          <p class="mt-1">Get fresh Fruits</p>
+        </div>
+      </div>
+        
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a href="" class="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://5.imimg.com/data5/SELLER/Default/2022/12/VH/XL/RN/3056452/all-office-stationery-items-1000x1000.jpg">
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+          <h2 class="text-gray-900 title-font text-lg font-medium"> Local Stationery</h2>
+          <p class="mt-1">$21.15</p>
+        </div>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://assets.traveltriangle.com/blog/wp-content/uploads/2020/06/Bara-Imambara_8th-June.jpg">
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+          <h2 class="text-gray-900 title-font text-lg font-medium">Local Places to Visit</h2>
+          <p class="mt-1"></p>
+        </div>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://content.jdmagicbox.com/comp/lucknow/h5/0522px522.x522.190125150710.v2h5/catalogue/revolution-gym-gomti-nagar-lucknow-gyms-1wmn6163b5.jpg?clr=604206">
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+          <h2 class="text-gray-900 title-font text-lg font-medium">Gym`s Near KIIT</h2>
+          <p class="mt-1">$18.40</p>
+        </div>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/424x264">
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+          <h2 class="text-gray-900 title-font text-lg font-medium">The Catalyzer</h2>
+          <p class="mt-1">$16.00</p>
+        </div>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/425x265">
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+          <h2 class="text-gray-900 title-font text-lg font-medium">Shooting Stars</h2>
+          <p class="mt-1"></p>
+        </div>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://b.zmtcdn.com/data/pictures/7/19449757/423e499ac58cf8d3a43c34f526bfc907.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*">
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+          <h2 class="text-gray-900 title-font text-lg font-medium">Cheap Eating</h2>
+          <p class="mt-1">Student Friendly</p>
+        </div>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/428x268">
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+          <h2 class="text-gray-900 title-font text-lg font-medium">The 400 Blows</h2>
+          <p class="mt-1">$18.40</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="chat-bot-system">
+    <a href="http://localhost/chatbot/chatbot.html"class="">
+    <img src="https://img.freepik.com/premium-vector/robot-icon-chat-bot-sign-support-service-concept-chatbot-character-flat-style_41737-796.jpg?w=740" height="70px" width="70px" alt="Chat Bot">
+    </a>
+</div>
+    <div class="subscribe">
+    <h1>Enter your Email to get latest information:</h1>
+        <form>
+        <input type="email" placeholder="Enter your Email"><br><br>
+        <input type="submit" value="submit" class="btn">
+        </form>
+    </div>
+    <!-- Footer  -->
+     <footer>
+        <div class="footer-content">
+            <h3>Pending</h3>
+            <p>Our website connects you to the surrounding of the KIIT.</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+     </div>
+        <div class="footer-bottom">
+            <p>copyright &copy; <a href="#">Pending</a>  </p>
+                    <div class="footer-menu">
+                      <ul class="f-menu">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Blog</a></li>
+                      </ul>
+                    </div>
+        </div>
+    </footer>
+</body>
+</html>
