@@ -309,12 +309,11 @@ nav .content .links{
 }
 .w-full{
     border:2px solid white;
-    background-color:#fff;
+    background-color:#00CC99;
 }
 .w-full a:hover{
-    transform: scale(1.2);
+    transform: scaleY(1.1);
     transition: 1s;
-    border: 9px solid red;
 }
 .dummy-text{
   position: absolute;
@@ -496,6 +495,40 @@ display: block;
     border:none;
 }
 .container{
-    text-align:center;
-    font-size:23px;
+    text-align: center;
+    margin:20px;
+}
+
+.container .card{
+    border:2px solid lightgray;
+    margin:20px;
+    padding:20px;
+    display: inline-flex;
+	width:308px;
+	height: 350px;
+	background: #f0f0f0;
+	margin:40px 20px;
+	padding: 20px 15px;
+	box-shadow: 0.5px 10px #e6e6e6;
+	margin-top: 5%;
+    justify-content: center;
+}
+.container .card .imgBx{
+    justify-content: center;
+	width:260px;
+	height: 260px;
+	top: -60px;
+	left:20px;
+	box-shadow: 0 5px 20px rbga (0,0,0,1.2);
+
+}
+.container .card .imgBx img
+{
+	max-width: 100%;
+	border-radius: 10px;
+}
+.container .card a:hover{
+    text-decoration:underline;
+    color:red;
+    
 }
